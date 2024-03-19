@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #242424;
+    color: white;
+    font-family:CircularSpTitle,CircularSpTitle-Tall,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva;
+}
+.home{
+    padding: 25px;
+}
+.logo{
+    margin-left: 25px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+.container{
+    text-align: center;
+    width: 50vw;
+}
+.headline h1{
+    font-size: 3rem;
+    margin: 8vh;
+    font-weight: bolder;
+}
+form{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* text-align: center; */
+    align-items: center;
+    text-align: left;
+}
+.toggle{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 14px;
+    background-color: grey;
+    border-radius: 30px;
+    /* border: 2px solid whitesmoke; */
+    padding: 1px;
+}
+.toggle::after{
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: black;
+    top: 2.4px;
+    left: 3px;
+    transition: all 0.5s;
+    
+}
+.checkbox:checked + .toggle::after{
+    left: 17px;
+}
+.checkbox:checked + .toggle{
+    background-color:lightgreen;
+}
+.checkbox{
+    display: none;
+}
+.log{
+    display: flex;
+    flex-direction: column;
+}
+.remember{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+    
+}
+.caps{
+    height: 2.1rem;
+    width: 22vw;
+}
+.sub{
+    font-weight: bolder;
+    font-size: 1rem;
+    background-color: #1ed760;
+    border-radius: 30px;
+    padding: 5px;
+    
+}

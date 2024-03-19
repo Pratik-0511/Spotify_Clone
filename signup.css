@@ -1,0 +1,114 @@
+body {
+    background-color: #121212;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    font-style: var(--font-family, CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva, var(--fallback-fonts, sans-serif)),Helvetica,Arial,sans-serif;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 22vw;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.form h1{
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    
+}
+.Email{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+.Email input{
+    width: 95%;
+    border-radius: 5px;
+    padding: 2vh;
+    font-size: 1rem;
+    background-color: #121212;
+    border: 2px solid #727272;
+    color: white;
+}
+.Email a{
+    color: #1ed760;
+    margin-top: 10px;
+}
+.Email button{
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    margin-top: 25px;
+    background-color: #1ed760;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+}
+.other{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 12px;
+    align-items: center;
+}
+.line{
+    border: 1px solid #727272;
+    width: 45%;
+    height: 0px;
+}
+.capsule{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.Caps{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #727272;
+    margin: 10px ;
+    padding: 2vh;
+    border-radius: 5vh;
+    cursor: pointer;
+}
+.Caps:hover{
+    border: 2px solid white;
+}
+.Caps a{
+    text-decoration: none;
+    color: white;
+    font-weight: 2rem;
+}
+.line2{
+    border: 1px solid #292929;
+    width: 100%;
+    height: 0px;
+
+}
+.last{
+    text-align: center;
+    margin: 30px 0;
+    color: #727272;
+}
+.last a{
+    color: white;
+}
+.Footer{
+    text-align: center;
+    margin: 30px 0;
+    color: #727272;
+    font-size: smaller;
+    font-weight: 0.2rem;
+}
+.Footer a{
+    color: #727272;
+}
