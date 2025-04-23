@@ -9,8 +9,8 @@ fetch("https://apiv2.shiprocket.in/v1/external/auth/login", {
     "Content-Type": "application/json"
   },
   body: JSON.stringify({
-    email: info@neostretch.in,
-    password: |~u89U0JYVz@;
+    email: "info@neostretch.in",
+    password: "|~u89U0JYVz@";
   })
 })
   .then(response => response.json())
