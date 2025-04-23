@@ -16,7 +16,7 @@ fetch("https://apiv2.shiprocket.in/v1/external/auth/login", {
   .then(response => response.json())
   .then(data => {
     if (data.token) {
-      console.log("Shiprocket Login Success");
+      console.log("Shiprocket Login Succeess");
       console.log("Token:", data.token);
 
       // Now you can use this token for other API calls
